@@ -35,36 +35,4 @@ output "username" {
   value ="${var.admin_username}"
 }
 
-/* output "ns_dns_server" {
-  value ="${var.dns_server}"
-}
-
-output "ns_ldap_server" {
-  value ="${var.ldap_server}"
-}
-
-output "ns_ntp_server" {
-  value ="${var.ntp_server}"
-}
- */
-/* output "saml_idp_signingcert" {
-  type= "string"
-  value = ""
-} */
-
-/* output "saml_signon_endpoint" {
-  value = "https://login.microsoftonline.com/7f73ddb0-b379-4171-9354-f82e3068e25a/saml2"
-}
-output "saml_signout_endpoint" {
-  value = "https://login.microsoftonline.com/7f73ddb0-b379-4171-9354-f82e3068e25a/saml2"
-}
-
-output "saml_app_identifier" {
-  value = "https://access.tech-01-dev.net/"
-}
-
-output "idp_app_metadata" {
-  value = "https://login.microsoftonline.com/7f73ddb0-b379-4171-9354-f82e3068e25a/federationmetadata/2007-06/federationmetadata.xml?appid=d360cd8e-8c81-4d0c-8085-ea7352c7fe0a"
-}
- */
  
