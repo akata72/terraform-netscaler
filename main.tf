@@ -5,10 +5,10 @@ terraform {
 locals {
   common_tags = {
     environment = "${var.environment}"
-    departement = "IT ISO"
-    owner = "IT ISO DevOps Squad"
-    routine = "DevOpsSquadRoutines"
-    project = "OperateIT"
+    departement = "dep"
+    owner = "owner"
+    routine = "routine"
+    project = "project"
     provisionedby = "Terraform"
   }
 }
